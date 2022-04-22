@@ -12,3 +12,18 @@
 * **Platform:** Drivendata
 * **Competition link:** https://www.drivendata.org/competitions/93/nasa-mars-spectrometry/
 * **Placement:** Top 3% (23/713)
+
+## Lessons learned
+* Differences between XGBoost, LightGBM and CatBoost
+* Tree methods don´t care about outliers
+* Decision-Tree based models still beat deep learning models, when working with tabular data
+* How to use Optuna for hyperparameter search
+* A solution can be worked out within a small windows (1 week)
+* Binary relevence method to solve multi-label classification problems (similar to OvA & OvR)
+* XGBoost, LightGBM and CatBoost are non-deterministic. You have to do multiple hypermeter searches to find best parameters
+
+## Future approaches
+* Try out different approaches to solve multi-label classification
+* Use weighted ensembles for each label. Weight depends on performance of classifier
+* Try out under-/oversampling
+* More details on model performance to spot underfitting/overfitting
